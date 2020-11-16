@@ -12,3 +12,8 @@ in format
 get screen brightness `adb shell settings get system screen_brightness`
 
 set screen brightness `adb shell settings put system screen_brightness 100`
+
+set screen brightness mode `adb shell settings put system screen_brightness_mode 0`
+
+get screen brightness mode `adb shell settings get system screen_brightness_mode`
+
