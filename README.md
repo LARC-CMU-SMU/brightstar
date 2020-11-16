@@ -6,3 +6,9 @@ writes to file
 
 in format
 `timestamp,brightness,illuminance`
+
+## notes
+
+get screen brightness `adb shell settings get system screen_brightness`
+
+set screen brightness `adb shell settings put system screen_brightness 100`
